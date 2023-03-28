@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>BlockImplement</title>
-</head>
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#about">Om os</a></li>
-				<li><a href="#services">Tjenester</a></li>
-				<li><a href="#usecases">Use Cases</a></li>
-				<li><a href="#contact">Kontakt os</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section id="hero">
-			<h1>BlockImplement</h1>
-			<h2>Konsulentfirmaet, der implementerer blockchain-teknologi i handels- og designvirksomheder</h2>
-			<button>Kontakt os nu</button>
-		</section>
+  <head>
+    <title>BlockImplement</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">Om os</a></li>
+          <li><a href="#services">Tjenester</a></li>
+          <li><a href="#usecases">Use Cases</a></li>
+          <li><a href="#contact">Kontakt os</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1>BlockImplement</h1>
+        <h2>Konsulentfirmaet, der implementerer blockchain-teknologi i handels- og designvirksomheder</h2>
+        <button>Kontakt os nu</button>
+      </section>
 		<section id="about">
 			<h2>Om os</h2>
 			<p>BlockImplement er et konsulentfirma specialiseret i at implementere blockchain-teknologi i handels- og designvirksomheder. Vi har ekspertise i at skabe løsninger, der kan forbedre effektiviteten og sikkerheden i din virksomhed.</p>
@@ -60,3 +61,30 @@
 	</footer>
 </body>
 </html>
+
+/* Styling til navigationen */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #f00;
+}
+
